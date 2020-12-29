@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shuffling Quotes."/>
+    <link rel="icon" href="shuffle.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="shuffle.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Qoute Generator</title>
+</head>
+<body>
+            <!-- loader -->
+            <div id="loader" class="loader">
+                
+
+                <svg version="1.1" id="L2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+              <circle fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+              <line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="85" y2="50.5">
+                <animateTransform 
+                     attributeName="transform" 
+                     dur="2s"
+                     type="rotate"
+                     from="0 50 50"
+                     to="360 50 50"
+                     repeatCount="indefinite" />
+              </line>
+              <line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="49.5" y2="74">
+                <animateTransform 
+                     attributeName="transform" 
+                     dur="15s"
+                     type="rotate"
+                     from="0 50 50"
+                     to="360 50 50"
+                     repeatCount="indefinite" />
+              </line>
+              </svg>
+              
+              
+            </div>
+            <!-- loader -->
+    
+    <div class="q-container" id="q-container">
+        <!-- Qoute Div Starts Here -->
+        
+        <!-- Qoute -->  
+        <div class="qoute-text">
+            <!-- icon & text -->
+          <i class="q-icon fas fa-quote-left"></i>
+          <span class="qoute"></span>  
+        </div>
+        <!-- Author -->
+        <div class="author-container">
+            <span class="author"></span>
+        </div>
+        <div class="buttons">
+            <!-- Twitter Button and Random Button -->
+            <button class="butt tweet" title="Tweet this"><i class="fab fa-twitter"></i></button>
+            <button class="butt random" title="randomize"><i class="fas fa-random"></i></button>
+        </div>
+        <!-- Qoute Div Ends Here -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
